@@ -46,6 +46,7 @@ public class LazyLoadActivity extends AppCompatActivity {
             tabLayout.addTab(tab);
             fragments.add(getfragment(i));
         }
+        //我是aa分支中新加的代码
 
         viewPager.setAdapter(new MyPagerAdapter(getSupportFragmentManager(),fragments,titleArr));
         // 使用 TabLayout 和 ViewPager 相关联
