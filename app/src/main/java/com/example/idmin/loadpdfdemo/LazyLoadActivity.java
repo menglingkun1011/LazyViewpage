@@ -35,9 +35,12 @@ public class LazyLoadActivity extends AppCompatActivity {
         viewPager = (ViewPager) findViewById(R.id.viewPager);
 
 //        fragments.add(new Fragment1());
+
 //        fragments.add(new Fragment2());
+
 //        fragments.add(new Fragment3());
         //merge吧
+
 //        fragments.add(new Fragment4());
 
 
