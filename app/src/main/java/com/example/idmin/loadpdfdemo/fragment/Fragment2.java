@@ -29,4 +29,9 @@ public class Fragment2 extends BaseFragment {
         Log.d("AAAAAAAAAAA", "调用了onCreateView方法 "+Fragment2.class.getSimpleName());
     }
 
+    @Override
+    protected String getClassName() {
+        return getClass().getSimpleName();
+    }
+
 }

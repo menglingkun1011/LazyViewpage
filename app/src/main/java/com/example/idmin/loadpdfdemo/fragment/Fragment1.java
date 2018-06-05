@@ -23,6 +23,11 @@ public class Fragment1 extends BaseFragment {
     }
 
     @Override
+    protected String getClassName() {
+        return getClass().getSimpleName();
+    }
+
+    @Override
     protected void initView(View view) {
         super.initView(view);
         ((TextView)view.findViewById(R.id.tv)).setText(Fragment1.class.getSimpleName());

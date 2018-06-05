@@ -75,6 +75,8 @@ public abstract class BaseFragment extends Fragment {
         isViewCreated = false;
         isUIVisible = false;
 
-        Log.d(TAG, "页面销毁了，调用了onDestroyView方法");
+        Log.d(TAG, "页面销毁了，调用了onDestroyView方法"+getClassName());
     }
+
+    protected abstract String getClassName();
 }

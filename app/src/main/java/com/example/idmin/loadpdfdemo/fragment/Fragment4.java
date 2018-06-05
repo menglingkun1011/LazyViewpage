@@ -29,4 +29,9 @@ public class Fragment4 extends BaseFragment {
         ((TextView)view.findViewById(R.id.tv)).setText(Fragment4.class.getSimpleName());
         Log.d("AAAAAAAAAAA", "调用了onCreateView方法 "+Fragment4.class.getSimpleName());
     }
+
+    @Override
+    protected String getClassName() {
+        return getClass().getSimpleName();
+    }
 }
