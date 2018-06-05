@@ -1,0 +1,15 @@
+# Created by .ignore support plugin (hsz.mobi)
+# Created by .ignore support plugin (hsz.mobi)
+/.gradle/
+/.idea/
+/build/
+/gradle/
+/local.properties
+*.iml
+*.apk
+/gradlew
+app/app-release.apk
+.DS_Store
+/zxingcodelibs/
+/parallaxbacklayout/
+/dsbridge/
