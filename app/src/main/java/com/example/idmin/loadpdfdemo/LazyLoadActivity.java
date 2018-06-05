@@ -40,6 +40,9 @@ public class LazyLoadActivity extends AppCompatActivity {
 //        fragments.add(new Fragment4());
 
 
+
+
+
         for (int i = 0; i < titleArr.length; i++) {
             TabLayout.Tab tab = tabLayout.newTab();
             tab.setText(titleArr[i]);
