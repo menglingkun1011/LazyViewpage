@@ -37,6 +37,7 @@ public class LazyLoadActivity extends AppCompatActivity {
 //        fragments.add(new Fragment1());
 //        fragments.add(new Fragment2());
 //        fragments.add(new Fragment3());
+        //哈哈哈哈 必须mearge吧
 //        fragments.add(new Fragment4());
 
 
