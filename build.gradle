@@ -1,0 +1,28 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+//        mavenCentral() // add repository
+//        maven { url 'http://210.13.111.26:10204/repository/maven-public/' }
+//        maven { url 'http://210.13.111.26:10204/repository/saic/' }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.1'
+    }
+}
+
+
+allprojects {
+    repositories {
+        jcenter()
+
+    }
+
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
